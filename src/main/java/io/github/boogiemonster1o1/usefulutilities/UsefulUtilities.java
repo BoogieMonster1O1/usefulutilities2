@@ -15,12 +15,11 @@ public class UsefulUtilities implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        log(Level.INFO, "Initializing");
-        //TODO: Initializer
+        log("Initializing Useful Utilities");
     }
 
-    public static void log(Level level, String message){
-        LOGGER.log(level, "["+MOD_NAME+"] " + message);
+    public static void log(String message){
+        LOGGER.log(Level.INFO,message);
     }
 
 }

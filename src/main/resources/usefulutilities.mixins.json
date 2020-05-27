@@ -3,7 +3,9 @@
   "package": "io.github.boogiemonster1o1.usefulutilities.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
-  "client": [],
+  "client": [
+    "GameMenuScreenMixin"
+  ],
   "server": [],
   "injectors": {
     "defaultRequire": 1
